@@ -1,0 +1,21 @@
+{
+  "name": "charitychain",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CharityChain educational local blockchain prototype",
+  "scripts": {
+    "build": "npm run compile && npm --prefix frontend run build",
+    "compile": "hardhat compile",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.ts --network localhost",
+    "seed": "hardhat run scripts/seed.ts --network localhost",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "hardhat": "^2.22.18",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
