@@ -98,6 +98,3 @@ Common issues:
 - **Port conflict:** stop the process using port 8545 or change the Hardhat localhost URL and the MetaMask network consistently.
 - **Dependency errors:** remove `node_modules` and rerun `npm install` and `npm --prefix frontend install`.
 
-## Project limitations and future work
-
-This prototype intentionally avoids real identity verification, IPFS, production key management, backend indexing, fiat donations, and mainnet deployment. Future work could add audited role management, independent charity due diligence, an indexed event service, privacy-preserving donor preferences, and multi-signature expense approvals.
